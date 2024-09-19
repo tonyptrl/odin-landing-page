@@ -1,4 +1,4 @@
-.header {
+.header, .hero-section {
   background-color: #1F2937;
 }
 
@@ -7,14 +7,13 @@
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  width: 1200px;
+  width: 900px;
 }
 
 .logo {
   color: #F9FAF8;
   font-size: 24px;
   font-weight: bold;
-
 }
 
 .menu {
@@ -26,4 +25,48 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 20px;
+}
+
+.hero-container {
+  width: 900px;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  gap: 50px;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-title {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-subtext {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.hero-image {
+  background-color: grey;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+
+.hero-button {
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px 30px;
+  margin-top: 15px;
 }
